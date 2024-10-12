@@ -15,7 +15,7 @@ app.set(
 //Middlewares
 app.use(morgan("dev"));
 
-//MySQL
+//MySQL Conn
 
 app.listen(app.get("port"), () => {
   console.log("Server on port 3000");
